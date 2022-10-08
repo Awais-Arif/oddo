@@ -1,0 +1,181 @@
+@import "@fontsource/sora";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(248, 250, 252, 255);
+  height: 100vh;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+.align-center,
+.d-end {
+  display: flex;
+  align-items: center;
+}
+.d-end {
+  justify-content: end;
+}
+.align-end {
+  display: flex;
+
+  align-items: flex-end;
+}
+
+.P-fixed {
+  position: sticky;
+  top: 0;
+  background-color: #605a5f;
+  border-bottom: 1px solid #cccccc;
+  z-index: 1111;
+}
+#C-nav a {
+  color: #faf9ff;
+}
+.C-nav {
+  color: #faf9ff;
+}
+.P-fixed a:hover,
+.P-fixed h6:hover {
+  color: #0d6efd !important;
+}
+.S-fixed {
+  position: fixed;
+  overflow: auto;
+  height: 100%;
+  padding: 8px 8px 32px 0;
+}
+
+.b-right {
+  border-right: 1px solid #dee2e6;
+}
+
+.fs-14 {
+  font-size: 0.9rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  color: #27292c;
+}
+
+.S-fixed a {
+  width: 100%;
+}
+.S-fixed a:hover {
+  background-color: rgb(214, 205, 205);
+  color: #27292c;
+  font-weight: 500;
+}
+
+.S-fixed a:active {
+  background-color: rgba(108, 193, 237, 0.3);
+  color: #27292c;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 13px;
+  color: gray;
+  margin: 8px 0 4px 0;
+}
+
+.card {
+  height: 100%;
+}
+.card-body img {
+  width: 90px;
+  height: 90px;
+}
+
+.card-body {
+  padding: 10px !important;
+}
+
+.install-btn {
+  background: #faf9ff;
+  border-radius: 8px;
+  width: 6rem;
+  height: 1.7rem;
+  font-family: Sora;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #4fc3f7;
+  border: 1px solid #4fc3f7;
+}
+.install-btn:hover {
+  background: #efeff3;
+}
+.info-btn {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #4fc3f7;
+}
+
+.search-input[type="text"] {
+  padding: 7px;
+  font-size: 13px;
+  border: none;
+  border-bottom: 1px solid grey;
+  float: left;
+  max-width: 350px;
+  width: 250px;
+  background: #ada6a6;
+}
+.search-input:focus {
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+  box-shadow: none;
+}
+
+.search-btn {
+  float: left;
+  width: 15%;
+  padding: 7px 5px;
+  color: white;
+  font-size: 13px;
+  border-bottom: 1px solid grey;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  cursor: pointer;
+  background: #ada6a6;
+}
+
+.search-btn:hover {
+  color: #0b7dda !important;
+}
+
+#nav2 a {
+  display: flex;
+  align-items: center;
+}
+.dropdown-item,
+.dropdown-item:hover {
+  color: inherit !important;
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .search-input {
+    width: 130px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search-input {
+    width: 150px !important;
+  }
+}
